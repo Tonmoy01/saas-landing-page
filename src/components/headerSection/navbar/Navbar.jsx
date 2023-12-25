@@ -19,9 +19,7 @@ function Navbar({ isHomePage }) {
             <div className='hidden md:flex items-center '>
               <ul className='flex gap-4'>
                 <li>Home</li>
-                <li className='text-gray-400'>
-                  <a href='#product'>Product</a>
-                </li>
+                <li className='text-gray-400'>Product</li>
                 <li className='text-gray-400'>Features</li>
                 <li className='text-gray-400'>Pricing</li>
               </ul>

@@ -31,7 +31,7 @@ function DataProvider() {
   ];
 
   return (
-    <div className='w-full md:mt-28 mt-10 md:mb-20 mb-10' id='product'>
+    <div className='w-full md:mt-28 mt-10 md:mb-20 mb-10'>
       <div className='md:max-w-[1480px] max-w-[600px] m-auto w-full h-full md:flex md:justify-center gap-8 px-4'>
         {/* Left side */}
         <div className='left w-7/12 md:mx-0 mx-auto'>

@@ -1,0 +1,18 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  theme: {
+    extend: {
+      boxShadow: {
+        cardShadow: '0px 4px 9px 0px rgba(0, 0, 0, 0.05)',
+        buttonShadow: '0px 4px 9px 0px rgba(0, 0, 0, 0.05)',
+        logRegBtnShadow: '0px 4px 61px 0px rgba(77, 71, 195, 0.40)',
+      },
+      backgroundColor: {
+        logRegBtnColor: '#B588FF',
+        inputBgColor: '#F0EFFF',
+      },
+    },
+  },
+  plugins: [],
+};

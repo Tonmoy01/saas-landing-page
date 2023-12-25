@@ -18,7 +18,7 @@ function Login() {
   };
 
   return (
-    <div>
+    <div className='poppins'>
       <Navbar />
 
       <div className='w-full md:mt-28 mt-10 md:mb-20 mb-10'>
@@ -53,7 +53,7 @@ function Login() {
                   placeholder={'Enter email'}
                   value={inputValue.email}
                   onChange={handleInputChange}
-                  className='w-full py-5 px-5 bg-inputBgColor rounded-md focus:outline-none mt-[38px] placeholder:text-[15px] placeholder:text-[#A7A3FF] placeholder:font-normal'
+                  className='w-full py-5 px-5 bg-inputBgColor rounded-[9px] focus:outline-none mt-[38px] placeholder:text-[15px] placeholder:text-[#A7A3FF] placeholder:font-normal'
                   name='email'
                 />
                 <FormInput
@@ -61,7 +61,7 @@ function Login() {
                   placeholder={'Enter password'}
                   value={inputValue.password}
                   onChange={handleInputChange}
-                  className='w-full py-5 px-5 bg-inputBgColor rounded-md focus:outline-none mt-[38px] placeholder:text-[15px] placeholder:text-[#A7A3FF] placeholder:font-normal'
+                  className='w-full py-5 px-5 bg-inputBgColor rounded-[9px] focus:outline-none mt-[38px] placeholder:text-[15px] placeholder:text-[#A7A3FF] placeholder:font-normal'
                   name='password'
                 />
                 <p className='text-end text-[13px] text-[#B0B0B0] mt-4'>
@@ -69,7 +69,7 @@ function Login() {
                 </p>
                 <button
                   type='submit'
-                  className='w-full bg-logRegBtnColor text-white py-5 rounded-[9px] focus:outline-none focus:ring mt-[46px] shadow-logRegBtnShadow'
+                  className='w-full bg-btnBgColor text-white py-5 rounded-[9px] focus:outline-none focus:ring mt-[46px] shadow-logRegBtnShadow'
                 >
                   Login
                 </button>

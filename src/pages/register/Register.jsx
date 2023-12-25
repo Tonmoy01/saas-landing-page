@@ -24,14 +24,14 @@ function Register() {
   };
 
   return (
-    <div>
+    <div className='poppins'>
       <Navbar />
 
       <div className='w-full md:mt-28 mt-10 md:mb-20 mb-10'>
         <div className='md:max-w-[1480px] max-w-[600px] m-auto w-full h-full px-4'>
           <div className='md:flex justify-center items-center'>
             {/* Left Side */}
-            <div className='w-6/12'>
+            <div className='w-6/12 -mt-[100px]'>
               <h2 className='text-4xl mb-8 text-[50px] font-semibold'>
                 Register
               </h2>
@@ -59,7 +59,7 @@ function Register() {
                   placeholder={'Enter email'}
                   value={inputValue.email}
                   onChange={handleInputChange}
-                  className='w-full py-5 px-5 bg-inputBgColor rounded-md focus:outline-none mt-[38px] placeholder:text-[15px] placeholder:text-[#A7A3FF] placeholder:font-normal'
+                  className='w-full py-5 px-5 bg-inputBgColor rounded-[9px] focus:outline-none mt-[38px] placeholder:text-[15px] placeholder:text-[#A7A3FF] placeholder:font-normal'
                   name='email'
                 />
                 <FormInput
@@ -67,7 +67,7 @@ function Register() {
                   placeholder={'Name'}
                   value={inputValue.name}
                   onChange={handleInputChange}
-                  className='w-full py-5 px-5 bg-inputBgColor rounded-md focus:outline-none mt-[38px] placeholder:text-[15px] placeholder:text-[#A7A3FF] placeholder:font-normal'
+                  className='w-full py-5 px-5 bg-inputBgColor rounded-[9px] focus:outline-none mt-[38px] placeholder:text-[15px] placeholder:text-[#A7A3FF] placeholder:font-normal'
                   name='name'
                 />
                 <FormInput
@@ -75,7 +75,7 @@ function Register() {
                   placeholder={'Company'}
                   value={inputValue.company}
                   onChange={handleInputChange}
-                  className='w-full py-5 px-5 bg-inputBgColor rounded-md focus:outline-none mt-[38px] placeholder:text-[15px] placeholder:text-[#A7A3FF] placeholder:font-normal'
+                  className='w-full py-5 px-5 bg-inputBgColor rounded-[9px] focus:outline-none mt-[38px] placeholder:text-[15px] placeholder:text-[#A7A3FF] placeholder:font-normal'
                   name='company'
                 />
                 <FormInput
@@ -83,7 +83,7 @@ function Register() {
                   placeholder={'Enter password'}
                   value={inputValue.password}
                   onChange={handleInputChange}
-                  className='w-full py-5 px-5 bg-inputBgColor rounded-md focus:outline-none mt-[38px] placeholder:text-[15px] placeholder:text-[#A7A3FF] placeholder:font-normal'
+                  className='w-full py-5 px-5 bg-inputBgColor rounded-[9px] focus:outline-none mt-[38px] placeholder:text-[15px] placeholder:text-[#A7A3FF] placeholder:font-normal'
                   name='password'
                 />
                 <FormInput
@@ -91,12 +91,12 @@ function Register() {
                   placeholder={'Replay password'}
                   value={inputValue.password2}
                   onChange={handleInputChange}
-                  className='w-full py-5 px-5 bg-inputBgColor rounded-md focus:outline-none mt-[38px] placeholder:text-[15px] placeholder:text-[#A7A3FF] placeholder:font-normal'
+                  className='w-full py-5 px-5 bg-inputBgColor rounded-[9px] focus:outline-none mt-[38px] placeholder:text-[15px] placeholder:text-[#A7A3FF] placeholder:font-normal'
                   name='password2'
                 />
                 <button
                   type='submit'
-                  className='w-full bg-logRegBtnColor text-white py-5 rounded-[9px] focus:outline-none focus:ring mt-[46px] shadow-logRegBtnShadow'
+                  className='w-full bg-btnBgColor text-white py-5 rounded-[9px] focus:outline-none focus:ring mt-[46px] shadow-logRegBtnShadow'
                 >
                   Register
                 </button>

@@ -41,7 +41,7 @@ function Features() {
               decisions.
             </p>
             <div className='md:w-2/12 text-center'>
-              <button className='mx-auto px-5 py-3 text-white rounded-full bg-purple-500'>
+              <button className='mx-auto px-5 py-3 text-white rounded-full bg-btnBgColor'>
                 Free Trial
               </button>
             </div>

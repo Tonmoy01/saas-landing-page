@@ -1,18 +1,17 @@
-import Availablity from './components/availablity/Availablity';
-import ChoosePlan from './components/choosePlan/ChoosePlan';
-import DataProvider from './components/dateProvider/DataProvider';
-import Features from './components/features/Features';
-import HeaderSection from './components/headerSection/HeaderSection';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './pages/home/Home';
+import Login from './pages/login/Login';
+import Register from './pages/register/Register';
 
 function App() {
   return (
-    <>
-      <HeaderSection />
-      <DataProvider />
-      <Features />
-      <Availablity />
-      <ChoosePlan />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route index element={<Home />} />
+        <Route path='/login' element={<Login />} />
+        <Route path='/register' element={<Register />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

@@ -25,10 +25,10 @@ function Hero() {
             </p>
 
             <div className='mt-10 md:flex md:gap-4'>
-              <button className='w-full mb-4 md:mb-0 md:mr-4 md:w-44 px-8 py-3 rounded-2xl bg-[#B588FF] text-white font-bold'>
+              <button className='w-full mb-4 md:mb-0 md:mr-4 md:w-44 px-8 py-3 rounded-[20px] bg-[#B588FF] text-white font-bold'>
                 Try Free Trial
               </button>
-              <button className='w-full md:w-40 px-8 py-3 rounded-2xl border-solid border-2 border-gray-400 font-bold'>
+              <button className='w-full md:w-40 px-8 py-3 rounded-[20px] border-solid border-2 border-gray-400 font-bold'>
                 Book Call
               </button>
             </div>

@@ -20,10 +20,14 @@ function FormInput({ type, placeholder, value, onChange, className, name }) {
       />
       {type === 'password' && (
         <div
-          className='absolute top-2/3 transform -translate-y-1/2 right-2 cursor-pointer'
+          className='absolute top-2/3 transform -translate-y-1/2 right-5 cursor-pointer'
           onClick={togglePasswordVisibility}
         >
-          {showPassword ? <IoIosEye /> : <IoIosEyeOff />}
+          {showPassword ? (
+            <IoIosEye color='#A7A3FF' size={20} />
+          ) : (
+            <IoIosEyeOff color='#A7A3FF' size={20} />
+          )}
         </div>
       )}
     </div>

@@ -60,7 +60,7 @@ function Availablity() {
                 You have a Country request?
               </h4>
               <div className='md:w-auto w-6/12 text-end'>
-                <button className='px-5 py-3 text-white rounded-full bg-purple-500'>
+                <button className='px-5 py-3 text-white rounded-full bg-btnBgColor'>
                   Contact Us
                 </button>
               </div>
@@ -70,7 +70,7 @@ function Availablity() {
               <h4 className='text-xl font-semibold mt-20 mb-6'>
                 Get informed for new Countrys
               </h4>
-              <EmailInput />
+              <EmailInput className='p-2 outline-none w-full' />
             </div>
           </div>
 

@@ -19,7 +19,9 @@ function Navbar({ isHomePage }) {
             <div className='hidden md:flex items-center '>
               <ul className='flex gap-4'>
                 <li>Home</li>
-                <li className='text-gray-400'>Product</li>
+                <li className='text-gray-400'>
+                  <a href='#product'>Product</a>
+                </li>
                 <li className='text-gray-400'>Features</li>
                 <li className='text-gray-400'>Pricing</li>
               </ul>
@@ -29,7 +31,7 @@ function Navbar({ isHomePage }) {
               <button className='flex justify-between items-center  bg-transparent px-6 gap-2 rounded-lg border-solid border-2 border-gray-400 font-bold'>
                 <Link to='/login'>Login</Link>
               </button>
-              <button className='px-8 py-3 rounded-lg bg-[#B588FF] text-white font-bold shadow-[2px 6px 6px rgba(0, 0, 0, 0.5)]'>
+              <button className='px-8 py-3 rounded-[10px] bg-btnBgColor text-white font-bold shadow-btnShadow'>
                 Free Trial
               </button>
             </div>
